@@ -281,7 +281,7 @@ function startGUI () {
 }
 
 function isMobile () {
-    return /Mobi|Android/i.test(navigator.userAgent);
+    return false;
 }
 
 function captureScreenshot () {
